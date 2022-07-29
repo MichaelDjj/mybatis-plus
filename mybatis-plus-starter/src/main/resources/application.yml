@@ -1,0 +1,11 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mybatis_plus_starter?useSSL=false&autoReconnect=true&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123@abcd
+  application:
+    name: mybatis-plus-starter
+server:
+  port: 8881

@@ -1,4 +1,4 @@
-package org.michael.mybatisplusgenerator;
+package org.michael.mpgenerator;
 
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;
 import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
