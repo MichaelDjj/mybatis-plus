@@ -24,6 +24,17 @@ server:
 mybatis-plus:
   #mybatis mapper xml文件位置，默认classpath下mapper文件夹
   mapper-locations: classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      #主键生成策略: 数据库ID自增
+      id-type: auto
+      #全局逻辑删除的实体字段名
+      logic-delete-field: enabled
+      #逻辑已删除值
+      logic-delete-value: 0
+      #逻辑未删除值
+      logic-not-delete-value: 1
+
 
 logging:
   level:
